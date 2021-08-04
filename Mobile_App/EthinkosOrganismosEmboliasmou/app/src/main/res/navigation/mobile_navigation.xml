@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.ethinkosorganismosemboliasmou.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.ethinkosorganismosemboliasmou.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_radevou"
+        android:name="com.example.ethinkosorganismosemboliasmou.ui.radevou.RadevouFragment"
+        android:label="@string/menu_radevou"
+        tools:layout="@layout/fragment_radevou" />
+
+    <fragment
+        android:id="@+id/nav_statistics"
+        android:name="com.example.ethinkosorganismosemboliasmou.ui.statistics.StatisticsFragment"
+        android:label="@string/menu_statistics"
+        tools:layout="@layout/fragment_statistics" />
+
+    <fragment
+        android:id="@+id/nav_questions"
+        android:name="com.example.ethinkosorganismosemboliasmou.ui.questions.QuestionsFragment"
+        android:label="@string/menu_questions"
+        tools:layout="@layout/fragment_questions" />
+</navigation>

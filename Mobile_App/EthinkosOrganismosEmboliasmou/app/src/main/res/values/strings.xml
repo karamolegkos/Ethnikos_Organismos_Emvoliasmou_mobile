@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">Ethinkos Organismos Emboliasmou</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">E.O.E.</string>
+    <string name="nav_header_subtitle">Ethnikos Organismos Emvoliasmou</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Change Language</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_radevou">Appointment</string>
+    <string name="menu_statistics">Statistics</string>
+    <string name="menu_questions">Q&#38;A</string>
+
+    <!-- For the Home -->
+    <string name="home_image_descr">The main home image of the application</string>
+    <string name="who_are_we">Who are we?</string>
+    <string name="we_are_p1">
+        The National Vaccination Campaign for COVID-19 has started. The vaccine is in our hands. Approved for its safety, quality and effectiveness by the relevant international and national organizations, the World Health Organization, the EMA (European Medicines Agency) and the FDA (US Food and Drug Administration).
+    </string>
+    <string name="we_are_p2">
+        Vaccination, free for all, is in progress for people in the front line of health, general education teachers and for those over 30 years of age.
+    </string>
+    <string name="we_are_p3">
+        The goal is to vaccinate the entire population over 18 years of age. The National Vaccination Committee may change the priority depending on the number of doses available. The vaccine is optional, but necessary to protect ourselves and our fellow human beings. And we do not forget. We continue to wear a mask and keep our distance for as long as necessary.
+    </string>
+
+    <!-- For the Gallery -->
+    <string name="images_title">Below are some of our pictures: </string>
+    <string name="image_descr_1">My first image</string>
+    <string name="image_descr_2">My second image</string>
+    <string name="image_descr_3">My third image</string>
+    <string name="image_descr_4">My forth image</string>
+    <string name="image_descr_5">My fifth image</string>
+    <string name="image_descr_6">My sixth image</string>
+
+    <string name="videos_title">Useful videos: </string>
+    <string name="my_video_1">Find out what the Covid-19 pandemic is!</string>
+    <string name="my_video_2">We wash our hands to protect ourselves!</string>
+    <string name="my_video_3">We protect ourselves by Covid-19!</string>
+    <string name="my_video_4">We manage our children properly!</string>
+
+    <string name="fullscreen_image">A fullscreen image.</string>
+
+    <!-- For the Radevou -->
+    <string name="radevou_title">Get an appointment!</string>
+
+    <string name="name_label">Name:</string>
+    <string name="name_field">Name</string>
+
+    <string name="surname_label">Surname:</string>
+    <string name="surname_field">Surname</string>
+
+    <string name="amka_label">AMKA number:</string>
+    <string name="amka_field">A5637493822</string>
+
+    <string name="phone_label">Phone number:</string>
+    <string name="phone_field">6955555555</string>
+
+    <string name="email_label">Email:</string>
+    <string name="email_field">email@domain.com</string>
+
+    <string name="date_label">Date:</string>
+    <string name="time_label">Time:</string>
+
+    <string name="date_field">25-12-2021</string>
+    <string name="time_field">15:46</string>
+
+    <string name="appointment_request_button">Request an appointment</string>
+
+    <string name="appointment_title">Below are your appointment details:</string>
+    <string name="cancel_appointment_button">Cancel my Appointment</string>
+
+    <string name="date_button">Choose a Date</string>
+    <string name="time_button">Choose a Time</string>
+
+    <!-- For the Statistics -->
+    <string name="statistics_title">See the statistics of the greek vaccination movement!</string>
+    <string name="statistics_explain">Give below the dates that you want to see our statistics.</string>
+
+    <string name="date_from">Date From:</string>
+    <string name="date_to">Date To:</string>
+
+    <string name="choose_date_button">Choose a Date</string>
+
+    <string name="get_statistics_button">Get Statistics!</string>
+
+    <string name="results_title">Here are the results!</string>
+
+    <string name="table_heading_1">Day</string>
+    <string name="table_heading_2">A-Dose</string>
+    <string name="table_heading_3">B-Dose</string>
+    <string name="table_heading_4">Doses</string>
+    <string name="table_heading_5">Vaccinated Sum</string>
+
+    <!-- For the Questions -->
+    <string name="question1">How effective is the SARS-CoV-2 coronavirus vaccine?</string>
+    <string name="answer1">Many SARS-CoV-2 coronavirus vaccines are currently in clinical trials. How effective a vaccine is always depends on the particular vaccine, the proper administration of the vaccine, and factors that affect each individual\'s immune response. The first vaccines to be approved appear to be quite effective, up to 95%. The competent control mechanisms approving the marketing of vaccines prioritize the efficacy and safety of vaccines.</string>
+
+    <string name="question2">Why get a SARS-CoV-2 coronavirus vaccine?</string>
+    <string name="answer2">Vaccines are made to treat diseases that cannot be controlled by other public health measures alone. Their goal is to reduce and eliminate diseases with high transmissibility, with serious effects on human health, with high mortality, with a high burden on health systems, but also with adverse economic effects on society. Coronavirus SARS-CoV-2 is a new virus that within a year of its appearance has dramatically affected the lives of all people worldwide. It has a high transmissibility so it is impossible to control only with the implementation of other, more known to all of us, public health measures, in many cases seriously endangers the health of the sick, can lead to the loss of many human lives while still healthy, affects significantly testing everyone\'s daily lives, testing health systems and creating irreparable economic impacts around the world.</string>
+
+    <string name="question3">Can I get a vaccine and still get COVID-19?</string>
+    <string name="answer3">No vaccine is 100% effective. So in some cases one can get the new coronavirus even though the vaccine was given. Therefore, citizens should continue to take the recommended precautions to avoid infection, ie vaccinated people should continue to use a mask, social distance, regular and meticulous hand hygiene and cleanliness of the area where they live or work. Vaccines against COVID-19 seem to reduce the chance of someone getting the disease. Each vaccine has undergone clinical trials in various countries and has an acceptable safety profile. More than 65,000,000 doses have already been administered in 56 countries worldwide. It takes a few weeks for someone to develop immunity and be protected after the vaccine is given. Some people may get COVID-19 even though they have been vaccinated, but the disease may be less severe.</string>
+
+    <string name="question4">Since the vaccine does not protect me 100% from the disease from the new coronavirus, why should I do it?</string>
+    <string name="answer4">New vaccines, as shown by clinical trials, reduce the risk of developing symptoms and possibly the risk of serious viral illness. This is very important, because at the same time the risk of illness, the risk of loss of human life and possibly the risk of long-term complications caused by the virus in some patients, such as complications of the cardiovascular and respiratory systems, are reduced. A similar experience of such effectiveness exists with other vaccines used for years in medicine. For example, the H1N1 flu vaccine is not as effective every year in controlling the disease. Various factors, such as the ability of the virus to mutate, the strain of the virus that will prevail each year, the geographical area, can affect the effectiveness of the vaccine in controlling the disease. But even less effective flu vaccines in the past seem to reduce the overall risk of serious illness in the general population.</string>
+
+    <string name="question5">Can I get the vaccine and not get sick but be an asymptomatic carrier of the virus?</string>
+    <string name="answer5">We do not yet know if those who are vaccinated with the new vaccines may become infected with the virus and be asymptomatic, so they can still transmit the virus under these conditions. That is why it is important even for those who are vaccinated to apply the other public health measures against the new virus, ie the use of a mask, the observance of social distance, the regular and meticulous hygiene of the hands and the cleanliness of the place where they live or work. At present, clinical trials show that the new vaccines protect against COVID-19 disease more than they significantly reduce the risk of transmitting the virus. It remains to be seen whether the new vaccines that are expected to complete the necessary clinical trials will be effective in reducing the transmission of the virus.</string>
+
+    <string name="question6">Is it possible to get SARS-CoV-2 coronavirus because of the vaccine?</string>
+    <string name="answer6">None of the vaccines to be studied and approved for SARS-CoV-2 coronavirus contain the whole virus. Most vaccines used in medicine now contain only parts of the virus that are capable of producing protective antibodies against the virus to the person to be administered. Thus the vaccinated person is in no way at risk of getting sick from the coronavirus because of the vaccine. However, there is a possibility that he has already contracted COVID-19 and has not realized it if the symptoms become apparent only after the vaccination. Although a mild fever may occur within one or two days of vaccination, any other symptoms of COVID-19 (such as persistent cough, high fever, or fever lasting longer, numbness, tingling) should remain in the patient. home and plan to do a lab test.</string>
+
+    <string name="question7">Will the SARS-CoV-2 coronavirus vaccination be mandatory?</string>
+    <string name="answer7">Vaccination for the new SARS-CoV-2 coronavirus will not be mandatory. Vaccination against various diseases is a recommendation.</string>
+
+    <string name="question8">I am exposed to the SARS-CoV-2 coronavirus or I have COVID-19? Do I need to get the vaccine?</string>
+    <string name="answer8">According to clinical trial data, COVID-19 mRNA vaccines are safe in people with a history of SARS-CoV-2 infection. Vaccination should be offered regardless of a history of previous symptomatic or asymptomatic SARS-CoV-2 infection. PCR or rapid antigen testing or serum antibody testing is not recommended to decide on vaccination. Vaccination of symptomatic individuals with acute SARS-CoV-2 infection should be postponed until recovery and until the criteria for discontinuation of isolation are met. This recommendation applies to those individuals who have an acute SARS-CoV-2 infection and are about to receive the 1st or 2nd dose of the vaccine. Although no minimum desired interval has been defined between SARS-CoV-2 infection and vaccination, current data suggest that re-infections are rare within 90 days of initial infection. According to the above, if desired, vaccination of individuals with documented acute SARS-CoV-2 infection may be delayed until the end of the 90-day period.</string>
+
+    <string name="question9">Are SARS-CoV-2 Coronavirus Vaccines Safe? Do they have any side effects? What are they?</string>
+    <string name="answer9">Current data from clinical trials show that the new SARS-CoV-2 coronavirus vaccines that are in the final stage of approval or have been approved have an acceptable safety profile. Most side effects of vaccines occur in the first weeks to months after administration and control mechanisms require that this period be passed in clinical trials before the vaccine undergoes further testing and approval. Like all known vaccines, new ones against SARS-CoV-2 can have side effects. Most of them are mild and short-lived, and do not appear in all. Such side effects are a feeling of pain and tenderness in the hand where the vaccine was given that tends to get worse about 1-2 days after the vaccine, a feeling of tiredness, a headache, general pain or mild flu-like symptoms. Although fever is not uncommon for two to three days, high fever is uncommon and may indicate COVID-19 or other infection. An unusual side effect is lymphadenopathy. Resting and taking a regular dose of paracetamol help one feel better. Symptoms of side effects usually last less than a week. Mild symptoms after the first dose are not a contraindication to a second dose vaccination, which is necessary for better protection against the virus. If the symptoms worsen or there is concern, it is advisable to inform the treating physician in order to have a proper evaluation. Vaccine side effects are reported through the Yellow Card system which can be found online.</string>
+
+    <string name="question10">What should one do if one is not well when the next vaccination appointment is?</string>
+    <string name="answer10">If one is not well, it is best to wait until he recovers to be vaccinated, but this should be done as soon as possible. One should not make an appointment for a vaccination if one is self-isolated, or waiting for a COVID-19 test or is not sure if they are healthy.</string>
+
+    <!-- Tests -->
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>

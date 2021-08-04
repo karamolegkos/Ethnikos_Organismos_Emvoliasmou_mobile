@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fullLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <TextView
+        android:id="@+id/images_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/images_title"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scroll_view_gallery_1"
+        android:layout_width="0dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/images_title">
+
+        <androidx.gridlayout.widget.GridLayout
+            android:id="@+id/my_image_grid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/my_image_1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:contentDescription="@string/image_descr_1"
+                android:src="@drawable/my_image_1" />
+
+            <ImageView
+                android:id="@+id/my_image_2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:contentDescription="@string/image_descr_2"
+                android:src="@drawable/my_image_2" />
+
+            <ImageView
+                android:id="@+id/my_image_3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:contentDescription="@string/image_descr_3"
+                android:src="@drawable/my_image_3" />
+
+            <ImageView
+                android:id="@+id/my_image_4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:contentDescription="@string/image_descr_4"
+                android:src="@drawable/my_image_4" />
+
+            <ImageView
+                android:id="@+id/my_image_5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:contentDescription="@string/image_descr_5"
+                android:src="@drawable/my_image_5" />
+
+            <ImageView
+                android:id="@+id/my_image_6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:contentDescription="@string/image_descr_6"
+                android:src="@drawable/my_image_6" />
+
+        </androidx.gridlayout.widget.GridLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/scroll_view_gallery_2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/videos_title">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/my_text_video_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/my_video_1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <WebView
+                android:id="@+id/webview_video_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </WebView>
+
+            <TextView
+                android:id="@+id/my_text_video_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/my_video_2"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <WebView
+                android:id="@+id/webview_video_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/my_text_video_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/my_video_3"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <WebView
+                android:id="@+id/webview_video_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </WebView>
+
+            <TextView
+                android:id="@+id/my_text_video_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/my_video_4"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <WebView
+                android:id="@+id/webview_video_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/videos_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="@string/videos_title"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scroll_view_gallery_1" />
+
+    <ImageView
+        android:id="@+id/fullescreen_image"
+        android:contentDescription="@string/fullscreen_image"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@tools:sample/avatars" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
